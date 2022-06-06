@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking System</title>
+    <link rel="icon" type="image/x-icon" href="/Resource/Logo2.png">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@500&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <p style="font-size:20px;font-weight: bold; text-align: center;">Booking Information</p>
+    <div id="bigBox" class="bigBox">
+        
+    </div>
+
+    <div id="formBox">
+        <form id="formfunction" class="formfunction">
+            <div id=InsertBox>Your Name:<br/><input type="text" id="Name"/></div>
+            <div id=InsertBox>What do you need(application) :<br/><input type="text" id="apps"/></div>
+            <p>Booking Date and Time</p>
+            <p>Start :</p>
+            <input type="datetime-local" id="startDate">
+            <p>End :</p>
+            <input type="datetime-local" id="endDate"><br/>
+            <input type="submit" id="submit" class="submit" value="提交">
+            <input type="submit" id="delete" class="delete" value="刪除">
+        </form>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
